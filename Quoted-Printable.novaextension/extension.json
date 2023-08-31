@@ -1,0 +1,31 @@
+{
+  "identifier": "patrickvuarnoz.QuotedPrintable",
+  "name": "Quoted-Printable",
+  "organization": "Patrick A. Vuarnoz",
+  "description": "Quoted-printable encoding and decoding",
+  "version": "1.0",
+  "categories": ["formatters"],
+  
+  "main": "main.js",
+  
+  "entitlements": {
+    
+  },
+  
+  "commands": {
+    "editor": [
+      {
+        "title": "Encode",
+        "command": "quoted-printable.encode"
+      },
+      {
+        "title": "Decode",
+        "command": "quoted-printable.decode"
+      }
+    ]
+  },
+  
+  "bugs": "https://github.com/patrickvuarnoz/nova-quoted-printable/issues",
+  "repository": "https://github.com/patrickvuarnoz/nova-quoted-printable",
+  "funding": "https://paypal.me/patrickvuarnoz/1CHF"
+}
